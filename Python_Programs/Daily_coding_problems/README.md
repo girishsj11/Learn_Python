@@ -52,3 +52,10 @@ Write an algorithm that finds an appropriate Y array with the following properti
    - Given an array of numbers and a number k, determine if there are three entries in the array ,
 which add up to the specified number k. For example, given [20, 303, 3, 4, 25] and k = 49, 
 return true as 20 + 4 + 25 = 49
+
+
+
+   ### **daily_coding_541.py**
+
+   - Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. 
+For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
