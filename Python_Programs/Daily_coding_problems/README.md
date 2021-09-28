@@ -59,3 +59,9 @@ return true as 20 + 4 + 25 = 49
 
    - Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. 
 For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+
+   ### **daily_coding_626.py**
+
+   - Given a list of integers, return the largest product that can be made by multiplying any three integers.
+For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5 , You can assume the list has at least three integers.
