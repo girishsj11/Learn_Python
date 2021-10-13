@@ -71,3 +71,7 @@ For example, given 156, you should return 3
 
    - Given a list of integers, return the largest product that can be made by multiplying any three integers.
 For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5 , You can assume the list has at least three integers.
+
+   ### **daily_coding_641.py**
+   - Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+For example, for the input [1, 2, 3, 10], you should return 7 , Do this in O(N) time.
