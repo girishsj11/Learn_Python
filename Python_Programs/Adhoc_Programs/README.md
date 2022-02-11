@@ -101,3 +101,7 @@ in a simple words : searching a Target value among the sorted list/array.
    A startup program has to run the python script on every restarts of machine based on the first time input counter value.
 > We have written start_up.py script which shows few information before it restarts the local machine , and we have to place the start_up.cmd file 
 in startup folder(shell:startup on run command).
+
+## Fibonaci.py
+
+   Generating the fibonaci series for n number terms
