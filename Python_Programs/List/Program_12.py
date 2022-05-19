@@ -28,7 +28,7 @@ def main():
           count+=1
           print(arr[i]+","+arr[j]+","+arr[k])
           
-   print("Number of tripletes are equal to the target_sum : ",count)
+  print("Number of tripletes are equal to the target_sum : ",count)
           
   
 
