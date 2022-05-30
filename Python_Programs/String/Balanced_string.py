@@ -32,7 +32,7 @@ def main_action(string):
     value1 , value2 = 0,0
     
     if(len(string)%2==1):
-        return "Unbalanced due to length is unequal"
+        return -1
     else:
         for i in range(0,len(string)//2):
             value1 += dict_chars[string[i]] 
@@ -41,9 +41,9 @@ def main_action(string):
             value2 += dict_chars[string[i]]
             
         if(value1==value2):
-            return " Balanced string "
+            return 1
         else:
-            return " Unbalanced string "
+            return 0
             
         
    
