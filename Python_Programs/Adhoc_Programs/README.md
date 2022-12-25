@@ -151,3 +151,13 @@ Output : 100
 > Explanation:
 
 The maximum possible electric charge on the section of the rod is 2-3=-1 unit.
+
+## rightShift_list.py
+
+   Write a Python program that rotates an array by n positions to the right.
+
+> Example :
+
+input - l=[1,2,3,4,5,6] by 2 positions to the right
+
+output -  l=[5,6,1,2,3,4]
