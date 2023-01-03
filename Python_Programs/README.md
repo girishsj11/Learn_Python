@@ -210,3 +210,16 @@
     * Selenium
     * PySimpleGUI
     * BeautifulSoup
+    
+# Decorators & Generators
+
+  **Decorators in python**
+  
+    A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.    
+    Decorators are usually called before the definition of a function you want to decorate.
+    
+  **Generators in python**
+  
+    In Python, a generator is a function that returns an iterator that produces a sequence of values when iterated over. 
+    Generators are useful when we want to produce a large sequence of values, but we don't want to store all of them in memory at once.
+        
