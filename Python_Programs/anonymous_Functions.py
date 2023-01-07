@@ -30,5 +30,39 @@ as arguments, and the result is returned after computation (the process of apply
 The reduce() function in python is defined in the functools module and doesn't return multiple values or any iterator, it just returns a single value as output which is the result of the whole iterable getting reduced to only a single integer or string or boolean.
 '''
 
+#input iterable
+l=list(range(1,11))
+
+#lmabda
+lambda_list = lambda x:x%2
+for i in l:
+    print(lambda_list(i),end=',')  #1,0,1,0,1,0,1,0,1,0,
+    
+lambda_list = lambda x:x%2==0
+for i in l:
+    print(lambda_list(i),end=',')  #True,False,True,False,True,False.....False,
+    
+#map
+map_list = list(map(lambda x:x%2,l))
+print(map_list) #1,0,1,0,1,0,1,0,1,0,
+
+
+map_list = list(map(lambda x:x%2==0,l))
+print(map_list) #True,False,True,False,True,False.....False,
+
+
+#filter 
+filter_list = list(filter(lambda x:x%2,l))
+print(filter_list)  #[1,3,5,7,9] - odd numbers
+
+
+filter_list = list(filter(lambda x:x%2==0,l))
+print(filter_list)  #[2,4,6,8,10] - even numbers
+
+#reduce
+from functools import reduce
+reduce_number = reduce(lambda x,y:x+y , l)
+print(reduce_number) # 55 which is same as sum(l)
+
 
 
