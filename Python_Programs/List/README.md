@@ -88,3 +88,12 @@ Ex :
     Output: 5, 3, 1 
     Explanation: There is a triplet (5, 3 and 1) present 
     in the array whose sum is 9.
+
+
+### Program_13.py
+
+    program to remove multiple repeated item from list without using any looping concepts.
+
+    #Need to remove 2 from below list without using looping concepts
+
+    l=[1,2,3,4,5,0,55,66,2,3,5,2,1]
