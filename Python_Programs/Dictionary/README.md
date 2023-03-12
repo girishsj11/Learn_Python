@@ -23,3 +23,10 @@
 ## Conversion_of_list_to_dictionary
 
     Converting the 2 equal length list to dictionary as key & value pair.
+    
+    
+## Keys_BasedOn_Values in dictionary
+
+    Based on Value , we need to find out how many keys are present under dictionary with similar value.
+    #Who has 'iphone' mobiles 
+    users = {'kiran':'vivo','Madhu':'iphone','Sunil':'redmi','Usha':'iphone','Siddu':'vivo','deepak':'oneplux','giri':'pixel','chandra':'iphone'}
