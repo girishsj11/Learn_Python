@@ -1,5 +1,29 @@
 # **Data types :**
 
+## **Numeric data Type :**
+    int,float,complex
+
+## **Sequence data Type :**
+    list,tuple,range
+
+## **String data Type :**
+    string
+
+## **Binary Type :**
+    bytes, bytearray, memoryview
+
+## **Mapping Type :**
+    Dictionary
+
+## **Boolean Type :**
+    bool
+
+## **Set Type :**
+    set,frozenset
+
+## **None Type :**
+    None
+
 ### 1. **integer(int) :**
 
     They are often called just integers or ints, are positive or negative whole numbers with no decimal point.
