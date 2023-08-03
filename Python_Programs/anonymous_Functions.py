@@ -1,7 +1,7 @@
 '''
 Python Lambda Functions are anonymous function means that the function is without a name. 
 As we already know that the def keyword is used to define a normal function in Python. 
-imilarly, the lambda keyword is used to define an anonymous function in Python
+similarly, the lambda keyword is used to define an anonymous function in Python
 
 1. lambda
 
