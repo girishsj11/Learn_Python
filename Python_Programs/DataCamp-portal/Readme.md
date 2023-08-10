@@ -17,5 +17,6 @@
 # StringSegmentation
 
       You are provided with a large string and a dictionary/list of the words. You have to find if the input string can be segmented into words using the dictionary/list or not.  
-      ![Example for String Segmentation]()
+      
+![Example for String Segmentation](./String_segmentation.png)
 
