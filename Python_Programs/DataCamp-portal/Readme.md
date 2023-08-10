@@ -14,4 +14,8 @@
 
       Given an integer n, return the number of trailing zeroes in n factorial n! .. we have to first calculate n factorial (n!) and then calculate the number of training zeros. 
 
+# StringSegmentation
+
+      You are provided with a large string and a dictionary/list of the words. You have to find if the input string can be segmented into words using the dictionary/list or not.  
+      ![Example for String Segmentation]()
 
