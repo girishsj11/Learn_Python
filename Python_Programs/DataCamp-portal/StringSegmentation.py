@@ -5,14 +5,21 @@ list_of_words = ["data", "camp", "cam", "lack"]
 string = "datacamp"
 '''
 
-def segmentation(list_of_words,string):
-    segments = []
-    for word in list_of_words:
-        if word in string:
-            segments.append(word)
-    print(segments)
+
+
+def segmentation(words,s):
+    for i in range(1,len(s)+1):
+        first_str = s[0:i]
+        if first_str in words:
+            second_str = s[i:]
+            if(second_str in words or segmentation(words,second_str)):
+                return True
+    return False
     
+
+
+
 if __name__ == "__main__":
-    string = input("Enter the string to be segmented : ")
-    list_of_words = ["data", "camp", "cam", "lack"]
-    segmentation(list_of_words,string)
+    words = ['data','cam','camp','fung']
+    string = 'datafang'
+    print(segmentation(words,string))
