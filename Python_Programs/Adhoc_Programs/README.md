@@ -172,3 +172,11 @@ input - "abcaa1anv12hsd234mnxz3and45"
 
 output -  1+12+234+3+45 = 250
   
+## NestedListtoFlatList.py
+
+   converting the nested list to flat list
+
+> Example :
+l = [0, [1,2,3], [4,5,[6,7,8,[9,10,11]], [12, 13]], 15, 16]
+result should be flatten
+[0, 1, 2, 3, 4, 5, 6, ----------- 16]
