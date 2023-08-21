@@ -161,3 +161,14 @@ The maximum possible electric charge on the section of the rod is 2-3=-1 unit.
 input - l=[1,2,3,4,5,6] by 2 positions to the right
 
 output -  l=[5,6,1,2,3,4]
+
+## sum_of_nums_in_str.py
+
+   Write a program to calculate the sum of integer numbers in a string .
+
+> Example :
+
+input - "abcaa1anv12hsd234mnxz3and45"
+
+output -  1+12+234+3+45 = 250
+  
