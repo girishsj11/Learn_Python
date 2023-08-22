@@ -177,6 +177,24 @@ output -  1+12+234+3+45 = 250
    converting the nested list to flat list
 
 > Example :
+
 l = [0, [1,2,3], [4,5,[6,7,8,[9,10,11]], [12, 13]], 15, 16]
+
 result should be flatten
 [0, 1, 2, 3, 4, 5, 6, ----------- 16]
+
+## ValuesFromNestedDict.py
+
+  Accessing & printing the values from nested dictionary
+
+> Example - 
+
+data_in = {
+    "key1": {"key11": {"key111": {"key1111": 1}}},
+    "key2": {"key22": {"key222": 2}},
+    "key3": {"key33": 3},
+    "key4": 4
+}
+
+data_out = [1,2,3,4]
+
