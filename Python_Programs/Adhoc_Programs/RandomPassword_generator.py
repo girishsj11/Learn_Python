@@ -1,5 +1,7 @@
 #RandomPassword_generator.py
 
+#Generating string password combination with capital & small letters (alphabets) , numbers with special characters list .
+
 def password_generator():
     password = str()
     characters = [chr(i) for i in range(65,65+26)] #Capital alphabets
