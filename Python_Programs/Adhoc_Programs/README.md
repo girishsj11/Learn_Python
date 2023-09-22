@@ -198,3 +198,7 @@ data_in = {
 
 data_out = [1,2,3,4]
 
+## RandomPassword_generator.py
+
+  Generating string password combination with capital & small letters (alphabets) , numbers with special characters list .
+
