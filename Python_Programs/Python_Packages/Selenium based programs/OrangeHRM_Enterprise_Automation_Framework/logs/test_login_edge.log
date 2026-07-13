@@ -1,0 +1,16 @@
+2026-07-09 20:21:45,924 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[ Admin -admin123-False]
+2026-07-09 20:22:24,443 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[ Admin -admin123-False]
+2026-07-09 20:22:26,649 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[Admin- admin123 -False]
+2026-07-09 20:23:09,945 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[Admin- admin123 -False]
+2026-07-09 20:23:12,330 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-False]
+2026-07-09 20:23:51,226 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-False]
+2026-07-09 20:23:53,431 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[!@#$%^&*()-!@#$%^&*()-False]
+2026-07-09 20:24:37,017 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[!@#$%^&*()-!@#$%^&*()-False]
+2026-07-09 20:24:39,360 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[123456-123456-False]
+2026-07-09 20:25:35,689 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[123456-123456-False]
+2026-07-09 20:25:37,888 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[\u3053\u3093\u306b\u3061\u306f-\u30d1\u30b9\u30ef\u30fc\u30c9-False]
+2026-07-09 20:26:15,156 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[\u3053\u3093\u306b\u3061\u306f-\u30d1\u30b9\u30ef\u30fc\u30c9-False]
+2026-07-09 20:26:17,588 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_edge_login_inputs_show_validation[   -   -False]
+2026-07-09 20:26:55,734 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_edge_login_inputs_show_validation[   -   -False]
+2026-07-09 20:26:58,107 | INFO | testrun.test_login_edge | START tests/test_login_edge.py::test_repeated_invalid_login_attempts_keep_user_on_login_page
+2026-07-09 20:28:43,810 | INFO | testrun.test_login_edge | PASS tests/test_login_edge.py::test_repeated_invalid_login_attempts_keep_user_on_login_page

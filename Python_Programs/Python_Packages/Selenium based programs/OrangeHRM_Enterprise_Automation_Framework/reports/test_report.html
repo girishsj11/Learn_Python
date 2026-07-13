@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>OrangeHRM Test Report</title>
+    <style>
+        body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; color: #1f2937; }
+        h1, h2 { margin-bottom: 12px; }
+        .summary { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 12px; margin: 20px 0; }
+        .card { border: 1px solid #d1d5db; border-radius: 8px; padding: 16px; background: #f9fafb; }
+        .passed { background: #ecfdf5; }
+        .failed { background: #fef2f2; }
+        .skipped { background: #fffbeb; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+        th, td { border: 1px solid #d1d5db; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #f3f4f6; }
+        pre { white-space: pre-wrap; margin: 0; font-family: Consolas, monospace; }
+    </style>
+</head>
+<body>
+    <h1>OrangeHRM Sequential Test Report</h1>
+    <p>Started: 2026-07-09 20:21:15</p>
+    <p>Finished: 2026-07-09 20:33:43</p>
+    <div class="summary">
+        <div class="card"><strong>Total</strong><div>28</div></div>
+        <div class="card passed"><strong>Passed</strong><div>28</div></div>
+        <div class="card failed"><strong>Failed</strong><div>0</div></div>
+        <div class="card skipped"><strong>Skipped</strong><div>0</div></div>
+    </div>
+    <h2>File Summary</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Scenario</th>
+                <th>Test File</th>
+                <th>Cases</th>
+                <th>Passed</th>
+                <th>Failed</th>
+                <th>Skipped</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>5</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+
+            <tr>
+                <td>Dashboard</td>
+                <td>test_dashboard.py</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+
+            <tr>
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>8</td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+
+            <tr>
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+
+            <tr>
+                <td>Page Object</td>
+                <td>test_login_page.py</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+
+            <tr>
+                <td>Positive (+ve)</td>
+                <td>test_login_positive.py</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h2>Case Results</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Scenario</th>
+                <th>Test File</th>
+                <th>Case</th>
+                <th>Status</th>
+                <th>Duration</th>
+                <th>Details</th>
+                <th>Artifact</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr class="passed">
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>tests/test_api_smoke.py::test_login_url_returns_success</td>
+                <td>PASSED</td>
+                <td>1.516s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>tests/test_api_smoke.py::test_login_page_contains_expected_form_elements</td>
+                <td>PASSED</td>
+                <td>1.013s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>tests/test_api_smoke.py::test_base_domain_redirects_to_login_page</td>
+                <td>PASSED</td>
+                <td>1.318s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>tests/test_api_smoke.py::test_protected_dashboard_redirects_to_login_without_session</td>
+                <td>PASSED</td>
+                <td>1.072s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>API</td>
+                <td>test_api_smoke.py</td>
+                <td>tests/test_api_smoke.py::test_login_page_response_is_html</td>
+                <td>PASSED</td>
+                <td>0.918s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Dashboard</td>
+                <td>test_dashboard.py</td>
+                <td>tests/test_dashboard.py::test_dashboard_header_and_sidebar_are_visible</td>
+                <td>PASSED</td>
+                <td>6.771s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Dashboard</td>
+                <td>test_dashboard.py</td>
+                <td>tests/test_dashboard.py::test_profile_menu_shows_user_name_after_login</td>
+                <td>PASSED</td>
+                <td>9.923s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[ Admin -admin123-False]</td>
+                <td>PASSED</td>
+                <td>37.256s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[Admin- admin123 -False]</td>
+                <td>PASSED</td>
+                <td>41.920s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP-False]</td>
+                <td>PASSED</td>
+                <td>37.601s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[!@#$%^&amp;*()-!@#$%^&amp;*()-False]</td>
+                <td>PASSED</td>
+                <td>42.233s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[123456-123456-False]</td>
+                <td>PASSED</td>
+                <td>55.045s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[\u3053\u3093\u306b\u3061\u306f-\u30d1\u30b9\u30ef\u30fc\u30c9-False]</td>
+                <td>PASSED</td>
+                <td>36.022s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_edge_login_inputs_show_validation[   -   -False]</td>
+                <td>PASSED</td>
+                <td>36.850s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Edge</td>
+                <td>test_login_edge.py</td>
+                <td>tests/test_login_edge.py::test_repeated_invalid_login_attempts_keep_user_on_login_page</td>
+                <td>PASSED</td>
+                <td>104.379s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[invalid_user-admin123]</td>
+                <td>PASSED</td>
+                <td>42.897s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[Admin-invalid_pass]</td>
+                <td>PASSED</td>
+                <td>38.846s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[invalid_user-invalid_pass]</td>
+                <td>PASSED</td>
+                <td>39.739s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[-]</td>
+                <td>PASSED</td>
+                <td>36.217s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[-admin123]</td>
+                <td>PASSED</td>
+                <td>37.611s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Negative (-ve)</td>
+                <td>test_login_negative.py</td>
+                <td>tests/test_login_negative.py::test_invalid_login_shows_error[Admin-]</td>
+                <td>PASSED</td>
+                <td>36.516s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Page Object</td>
+                <td>test_login_page.py</td>
+                <td>tests/test_login_page.py::test_open_navigates_to_login_url</td>
+                <td>PASSED</td>
+                <td>0.001s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Page Object</td>
+                <td>test_login_page.py</td>
+                <td>tests/test_login_page.py::test_login_fills_form_then_clicks_submit</td>
+                <td>PASSED</td>
+                <td>0.001s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Page Object</td>
+                <td>test_login_page.py</td>
+                <td>tests/test_login_page.py::test_is_login_page_loaded_checks_logo_and_fields</td>
+                <td>PASSED</td>
+                <td>0.001s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Page Object</td>
+                <td>test_login_page.py</td>
+                <td>tests/test_login_page.py::test_login_button_state_is_exposed_by_page_object</td>
+                <td>PASSED</td>
+                <td>0.001s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Positive (+ve)</td>
+                <td>test_login_positive.py</td>
+                <td>tests/test_login_positive.py::test_valid_login_shows_dashboard</td>
+                <td>PASSED</td>
+                <td>9.594s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Positive (+ve)</td>
+                <td>test_login_positive.py</td>
+                <td>tests/test_login_positive.py::test_logout_returns_to_login_page</td>
+                <td>PASSED</td>
+                <td>10.726s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+
+            <tr class="passed">
+                <td>Positive (+ve)</td>
+                <td>test_login_positive.py</td>
+                <td>tests/test_login_positive.py::test_login_page_fields_are_visible_before_submit</td>
+                <td>PASSED</td>
+                <td>8.972s</td>
+                <td><pre></pre></td>
+                <td></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

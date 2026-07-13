@@ -1,0 +1,2 @@
+2026-07-10 16:55:00,146 | INFO | testrun.test_dashboard | START tests/test_dashboard.py::test_profile_menu_shows_user_name_after_login
+2026-07-10 16:55:20,374 | INFO | testrun.test_dashboard | PASS tests/test_dashboard.py::test_profile_menu_shows_user_name_after_login

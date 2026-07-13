@@ -1,0 +1,6 @@
+2026-07-09 20:33:02,248 | INFO | testrun.test_login_positive | START tests/test_login_positive.py::test_valid_login_shows_dashboard
+2026-07-09 20:33:13,343 | INFO | testrun.test_login_positive | PASS tests/test_login_positive.py::test_valid_login_shows_dashboard
+2026-07-09 20:33:15,641 | INFO | testrun.test_login_positive | START tests/test_login_positive.py::test_logout_returns_to_login_page
+2026-07-09 20:33:28,315 | INFO | testrun.test_login_positive | PASS tests/test_login_positive.py::test_logout_returns_to_login_page
+2026-07-09 20:33:30,700 | INFO | testrun.test_login_positive | START tests/test_login_positive.py::test_login_page_fields_are_visible_before_submit
+2026-07-09 20:33:41,297 | INFO | testrun.test_login_positive | PASS tests/test_login_positive.py::test_login_page_fields_are_visible_before_submit

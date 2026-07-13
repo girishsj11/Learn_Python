@@ -1,0 +1,8 @@
+2026-07-09 20:33:02,044 | INFO | testrun.test_login_page | START tests/test_login_page.py::test_open_navigates_to_login_url
+2026-07-09 20:33:02,047 | INFO | testrun.test_login_page | PASS tests/test_login_page.py::test_open_navigates_to_login_url
+2026-07-09 20:33:02,049 | INFO | testrun.test_login_page | START tests/test_login_page.py::test_login_fills_form_then_clicks_submit
+2026-07-09 20:33:02,053 | INFO | testrun.test_login_page | PASS tests/test_login_page.py::test_login_fills_form_then_clicks_submit
+2026-07-09 20:33:02,057 | INFO | testrun.test_login_page | START tests/test_login_page.py::test_is_login_page_loaded_checks_logo_and_fields
+2026-07-09 20:33:02,063 | INFO | testrun.test_login_page | PASS tests/test_login_page.py::test_is_login_page_loaded_checks_logo_and_fields
+2026-07-09 20:33:02,066 | INFO | testrun.test_login_page | START tests/test_login_page.py::test_login_button_state_is_exposed_by_page_object
+2026-07-09 20:33:02,070 | INFO | testrun.test_login_page | PASS tests/test_login_page.py::test_login_button_state_is_exposed_by_page_object

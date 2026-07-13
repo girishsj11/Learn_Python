@@ -1,0 +1,10 @@
+2026-07-09 20:21:16,177 | INFO | testrun.test_api_smoke | START tests/test_api_smoke.py::test_login_url_returns_success
+2026-07-09 20:21:17,694 | INFO | testrun.test_api_smoke | PASS tests/test_api_smoke.py::test_login_url_returns_success
+2026-07-09 20:21:17,696 | INFO | testrun.test_api_smoke | START tests/test_api_smoke.py::test_login_page_contains_expected_form_elements
+2026-07-09 20:21:18,711 | INFO | testrun.test_api_smoke | PASS tests/test_api_smoke.py::test_login_page_contains_expected_form_elements
+2026-07-09 20:21:18,712 | INFO | testrun.test_api_smoke | START tests/test_api_smoke.py::test_base_domain_redirects_to_login_page
+2026-07-09 20:21:20,076 | INFO | testrun.test_api_smoke | PASS tests/test_api_smoke.py::test_base_domain_redirects_to_login_page
+2026-07-09 20:21:20,078 | INFO | testrun.test_api_smoke | START tests/test_api_smoke.py::test_protected_dashboard_redirects_to_login_without_session
+2026-07-09 20:21:21,152 | INFO | testrun.test_api_smoke | PASS tests/test_api_smoke.py::test_protected_dashboard_redirects_to_login_without_session
+2026-07-09 20:21:21,154 | INFO | testrun.test_api_smoke | START tests/test_api_smoke.py::test_login_page_response_is_html
+2026-07-09 20:21:22,074 | INFO | testrun.test_api_smoke | PASS tests/test_api_smoke.py::test_login_page_response_is_html

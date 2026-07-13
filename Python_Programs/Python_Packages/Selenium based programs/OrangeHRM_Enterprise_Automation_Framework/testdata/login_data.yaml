@@ -1,0 +1,19 @@
+valid_user:
+  username: Admin
+  password: admin123
+
+invalid_user:
+  username: invalid_user
+  password: invalid_pass
+
+blank_user:
+  username: ""
+  password: ""
+
+locked_user:
+  username: locked_user
+  password: locked_pass
+
+edge_long_input:
+  username: "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  password: "Paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
